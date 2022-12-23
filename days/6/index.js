@@ -28,7 +28,6 @@ async function Five_pOne() {
 async function Five_pTwo() {
   const data = await fs.readFile('./data.txt', { encoding: 'utf8' });
   console.log(calculate(data.trimEnd(), 14))
-
 }
 
 
